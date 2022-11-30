@@ -53,7 +53,6 @@ int main (void) {
 QLPair partition (QuickList _ql) {
     QuickList first_half = newQL(NULL), second_half = newQL(NULL);
     List pivot = _ql.first, current = _ql.last, next;
-    int i = 0;
 
     // Parkour all that list
     while (!isEmptyList(current)) {
