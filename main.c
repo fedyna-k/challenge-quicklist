@@ -76,6 +76,12 @@ QLPair partition (QuickList _ql) {
 }
 
 
+/**
+ * Quicksort on list
+ * 
+ * @param _ql The quicklist to sort
+ * @return A sorted quicklist 
+ */
 QuickList quicksort (QuickList _ql) {
     QuickList return_ql = newQL(NULL);
     QLPair merge;
